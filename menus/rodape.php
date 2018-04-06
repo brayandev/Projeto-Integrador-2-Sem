@@ -49,11 +49,11 @@
 
                             }elseif ($numero_pg == 1) {
                                 
-                                echo "Jonathan Nascimento Sousa";
+                                echo "Brayan Antony";
 
                             }elseif ($numero_pg == 2) {
                                 
-                                echo "Alexsander Ferreira";
+                                echo "Brayan Antony";
 
                             }elseif ($numero_pg == 3) {
                                 
