@@ -1,0 +1,1034 @@
+@charset "UTF-8";
+
+
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+a:hover{
+
+    text-decoration: none;
+
+}
+
+.img-modal-unica{
+
+    width: 100%;
+
+}
+
+.img-history{
+
+    width: 100%;
+    transition: 1s;
+
+}
+
+.img-history:hover{
+
+    transition: 1s;
+    filter: brightness(38%);
+
+}
+
+.h3-history-ref{
+
+    color:#000;
+    font-size: 1.7em;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.logo-fundo{
+
+    background-color: rgba(18, 22, 44, 255);
+
+}
+
+.mosaico {
+
+    width: 100%;
+    margin-bottom: 0.5%;
+}
+
+.a_menu_inicial {
+
+    color: #fff;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: 20px;
+
+}
+
+.logo-new{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 120px;   
+    
+
+}
+.logo-new2{
+
+    margin-top: 30px;
+    height: 40px;
+    margin-left: 25px;
+    width: 120px; 
+    float: right;
+    margin-right: 3%;
+    
+}
+
+.li_menu {
+
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+ul li {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.linguas{
+
+    transition: 1s;
+
+}
+
+.linguas:hover{
+
+    filter: brightness(38%);
+    transition: 1s;
+
+}
+
+.menu {
+
+    border-radius: 0;
+    background-color: rgba(18, 22, 44, 255);
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #000;
+}
+
+.li_menu:hover {
+
+    background-color: #3e3e3e;
+    color: #fff;
+
+}
+
+.ativo {
+
+    background-color: #fff;
+    color: #000;
+
+}
+
+.ativo:hover {
+
+    color: #000;
+
+}
+
+.navbar-inverse .navbar-nav > li > a.ativo {
+    color: #000;
+}
+
+.div_logo_rodape {
+
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    width: calc(50% - 30px);
+    padding: 0;
+    float: left;
+
+}
+
+.idioma {
+    list-style-type: none;
+    margin-right: 10px
+}
+
+footer {
+
+    background-color: rgba(18, 22, 44, 181);
+    height: auto;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    clear: both;
+}
+
+.logo_rodape {
+
+    max-height: 100px;
+    max-width: 100%;
+
+}
+
+.div_menu_rodape {
+
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-bottom: 30px;
+
+}
+
+.ul_menu_rodape {
+
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+
+.li_menu_rodape .a_menu_rodape {
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.a_menu {
+
+    color: #fff;
+
+}
+
+.a_menu:hover {
+
+    color: #000;
+    background-color: #fff;
+
+}
+
+.h3_menu_rodape {
+
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 1.4em;
+    color: rgba(116, 133, 167, 255);
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.div_menu_rodape_conteudo {
+
+    margin-left: 3%;
+
+}
+
+.small {
+
+    width: 100%;
+    clear: both;
+    padding: 15px;
+
+}
+
+.small_rodape{
+
+    font-size: 1.1em;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+small {
+
+    font-size: 1.1em;
+    color: #fff;
+
+}
+
+
+header {
+
+    width: 100%;
+    clear: both;
+    z-index: 2;
+
+}
+
+.hr_home{
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.h3_noticia_home{
+
+    margin-top: 5px; 
+    width: 100%;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    max-width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.modal-title{
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.6em;
+
+}
+
+.a_noticia_home{
+
+    max-width: 100%;
+
+}
+
+.a_noticia_home:hover{
+
+    cursor: pointer;
+
+}
+
+.img_noticia_home{
+
+    max-width: 100%; 
+    transition: 1s;
+    
+}
+
+.h3_noticia_home:hover{
+
+    text-decoration: none;
+
+}
+
+.h3_home_novidades{
+
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.8em;
+    text-align:left;
+    margin-left: 15px;
+    margin-bottom: -15px;
+    max-width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.grid {
+
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+
+}
+
+
+/***  Dispositivos com mouse   ***/
+
+@media screen and (min-width: 831px) {
+
+    .grid {
+
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+
+    }
+    .img_noticia_home:hover{
+
+        filter: brightness(38%);
+        transition: 1s;
+
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .navbar-brand {
+        font-size: 20px;
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-right: 0px;
+    }
+
+    .navbar-brand.fixed-theme,
+    .navbar-container.fixed-theme,
+    .navbar.navbar-fixed-top.fixed-theme,
+    .navbar-brand,
+    .navbar-container {
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+    }
+
+}
+
+/***  Dispositivos com mouse   ***/
+
+/***  Dispositivos sem mouse   ***/
+
+@media screen and (max-width: 767px) {
+
+    .navbar-brand {
+        font-size: 20px;
+        margin-top: 23px;
+        margin-left: 15px;
+
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+
+    .grid {
+
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    .h3_home_novidades{
+
+        margin-top: 20px;
+
+    }
+
+    .img_noticia_home {
+
+        filter: brightness(60%);
+
+    }
+
+}
+
+.a_noticia_home:hover {
+
+    text-decoration: none;
+
+}
+
+/***  Dispositivos sem mouse   ***/
+
+.a_menu_font{
+
+    font-size: 1.1em;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+#menu_topo{
+
+    margin:0px;
+    padding: 0px;
+
+}
+
+.texto {
+
+    margin-top: -400px;
+
+}
+
+
+
+section {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.textoPremiados{
+    margin-top: 25px;
+    text-align: center;
+    color:#fff;
+}
+
+.tituloPremiados{
+    margin-top: 100px;
+    color:#fff;
+}
+
+.imgPremiadosDetalhes{
+    margin-top: 50%;
+}
+
+.footerPremiados{
+    position: relative;
+    margin-top: 100px;
+}
+
+@media screen and (min-width: 200px) {
+
+    .divimgPremiados{
+    
+        text-align: center;
+
+    }
+    
+    .imgPremiados{
+        margin-top: 20px;
+    }
+
+    .imgPremiadosDetalhes{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .imgPremiadosDetalhes{
+        margin-top: 100px;
+    }
+    
+    .imgPremiados{
+        margin-top: 50%;
+    }
+
+}
+
+/* Edição da Pagina Historias dos games */
+
+.textohistoria {
+    float: right;
+}
+
+.prinot {
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+.pritit {
+    margin-top: 5%;
+}
+
+.priimg {
+    margin-top: -2%;
+}
+
+.segnot {
+    margin-top: -2%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.segimg {
+    margin-top: 2%;
+}
+
+.ternot {
+    margin-top: -2%;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+.tertit {
+    margin-top: 6%;
+}
+
+.terimg {
+    margin-top: -4.5%;
+}
+
+.ternotcont {
+    margin-top: -0.9%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.imgsolta1 {
+    margin-top: 2%;
+    margin-left: 2.5%
+}
+
+.imgsolta2 {
+    margin-top: 2%;
+    margin-left: -5%;
+}
+
+.imgsolta3 {
+    margin-top: 3%;
+    margin-left: 2.5%
+}
+
+.imgsolta4 {
+    margin-top: 3%;
+    margin-left: -5%;
+}
+
+.quanot {
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.quaimg {
+    margin-top: 4%;
+}
+
+.quatit {
+    margin-top: 5%;
+}
+
+.quinot {
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+.quitit {
+    margin-top: 4%;
+}
+
+.quiimg {
+    margin-top: -2%;
+}
+
+.sexnot {
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.seximg {
+    margin-top: 4%;
+}
+
+.sextit {
+    margin-top: 5%;
+    
+}
+
+.sexnotcont {
+    margin-top: 1%;
+    margin-left: -3%;
+    margin-right: 0.5%;
+}
+.setnot {
+    margin-top: 1.5%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.setimg {
+    margin-top: 3%;
+}
+
+.settit {
+    margin-top: 1.0%;
+    
+}
+
+.setnotcont {
+    margin-top: 1%;
+    margin-left: -3%;
+    margin-right: 0.5%;
+}
+.mobnot {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.mobimg {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%
+}
+
+.bordhistoria {
+
+    background-color: #000;
+    border-width: 10px;   
+   /* border-top-style: ridge;
+    border-bottom-style: groove;
+    border-left-style: ridge;
+    border-right-style: groove;
+    border-color: #fff;*/
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 12%;
+    margin-bottom: 23%;
+    opacity: 0.9;
+    display: table;
+    padding-bottom: 3%;
+}
+
+
+.bordhistoria2 {
+
+    background-color: #000;    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    opacity: 0.9;
+    display: table;
+    padding-bottom: 10%;
+}
+
+/* Fim da Edição da pg Historias*/
+
+.img-noticia-detalhes{
+    
+    width: 100%;
+    
+}
+
+.img-noticia-erro{
+
+    max-width: 100%;
+    margin-top: 20px;
+
+}
+
+.h2-noticia-detalhes{
+    
+    color: #000;
+    font-size: 1.8em;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.modal-body{
+
+    color:#000;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.h2-secoes{
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+
+}
+
+.secao{
+
+    border: 1px solid;
+    border-color: #c0c0c0;
+    border-radius: 4px;
+    transition: 1s;
+    margin-top: 20px;
+
+}
+
+.grid-secoes{
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.secao:hover{
+
+    background-color: #c0c0c0;
+    transition: 1s;
+
+}
+
+.a_secao{
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+.a_secao:hover{
+
+    color: #fff;
+
+}
+
+.p-noticia-detalhes{
+    margin-top: 20px;
+    color: #000;
+    font-family: serif;
+    font-size: 1.1em;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    
+}
+
+.small-noticia-rodape{
+
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.a-link-noticia{
+
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.img-noticia-secundaria{
+    
+    max-width:100%;
+    transition: 1s;
+    
+}
+
+.img-noticia-secundaria:hover{
+    
+    filter: brightness(38%);
+    transition: 1s;
+    
+}
+
+.aside-noticia-secundaria{
+    
+    margin-top:-21px;
+    
+}
+
+.h3-noticia-secundaria{
+
+    color: #000;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    max-width: 95%;
+    margin-top: 5px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.h3-noticia-secundaria:hover{
+
+    text-decoration: none;
+
+}
+
+.a-noticia-secundaria:hover{
+
+    text-decoration: none;
+
+}
+
+.h3-novidade-secundaria{
+
+    font-family: sans-serif;
+    font-size: 1.3em;
+    color: #000;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: -15px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+
+/*edição pagina plataformas atuais*/
+
+.bordplataforma{
+
+    background-color: #000;    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 12%;
+    margin-bottom: 23%;
+    opacity: 0.9;
+    display: table;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+
+.text{
+    color: #000;
+}
+.pprinot {
+    margin-top: 2%;    
+}
+.ppriimg {
+    margin-top: 5%;
+}
+.psegtit {
+    margin-top: 4%;
+}
+.psegtit2 {
+    margin-top: 5%;
+}
+
+.meio{
+    
+    margin-top: -45px;
+    margin-bottom: 400px;
+    
+}
+
+.meio-history{
+
+    margin-bottom: 600px;
+
+}
+.grid-element-galeria{
+
+    margin-top: 15px;
+
+}
+
+.img-galeria{
+
+    width: 100%;
+
+}
+
+.img-plataformas{
+
+    width: 100%;
+
+}
+
+.p-introducao{
+
+    font-family: serif;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.grid-element-plataformas{
+
+    min-height: 500px;
+
+}
+
+.img-jogos{
+    
+    transition: 1s;
+
+}
+
+.img-jogos:hover{
+
+    filter: brightness(38%);
+    transition: 1s;
+
+}
+
+.li_menu .a_menu{
+    
+    transition: 1s;
+    
+}
+
+.li_menu:hover .a_menu:hover{
+    
+    color: #fff;
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.49);
+    
+}
+
+.meio{
+    
+    margin-top: -45px;
+    margin-bottom: 200px;
+    
+}
+
+.jogos-premiados{
+    
+    margin-top: 30px;
+    
+}
+
+.linguagem{
+    
+    margin-top: -10px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    header{
+        
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        
+    }
+    
+    .meio{
+        
+        margin-top: 100px;
+        
+    }
+    
+    .linguagem{
+        
+        margin-top: 20px;
+        margin-bottom: 70px;
+        
+    }
+    
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: rgba(18, 22, 44, 255);
+    border-color:rgba(0, 0, 0, 0);
+    transition: 1s;
+    border-radius: 48%;
+}
+
+.back-to-top:hover{
+    
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.37);
+    color: rgba(18, 22, 44, 255);
+    
+}
+
+.lang{
+
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+
+}
+
+a.a_menu.a_menu_font{
+    border-radius: 4px;
+}
